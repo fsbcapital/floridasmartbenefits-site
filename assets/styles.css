@@ -99,4 +99,21 @@ a:hover{text-decoration:underline}
   .header-inner{flex-direction:column;align-items:flex-start}
   .nav{justify-content:flex-start}
   .brand{min-width:unset}
+
+  nav a {
+    text-decoration: none;
+    color: #1f2a44;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #b89b5e;
+}
+
+header {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
 }
